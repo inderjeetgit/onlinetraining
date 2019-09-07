@@ -6,7 +6,7 @@ public class MarkValidator {
 		// TODO Auto-generated method stub
 
 	}
-	public static  boolean isPass(int mark) {
+	public   boolean isPass(int mark) {
 		if(mark>=40) {
 			return true;
 		}
@@ -15,7 +15,7 @@ public class MarkValidator {
 		}
 	}
 	
-	public static String markGrade(int mark){
+	public  String markGrade(int mark){
 			if(isPass(mark)) {
 				if(mark>=90)return "Grade A";
 				if(mark>=75)return "Grade B";
