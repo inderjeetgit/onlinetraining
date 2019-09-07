@@ -4,9 +4,8 @@ public class SumOfNumbers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-     System.out.println(sumOfEvenNumbers(1,11));
 	}
-	public static int sumOfOddNumbers( int start, int end) {
+	public  int sumOfOddNumbers( int start, int end) {
 		int sum;
 		if(start%2==0) {
 			sum=0;
