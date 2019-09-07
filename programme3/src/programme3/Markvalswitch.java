@@ -4,10 +4,9 @@ public class Markvalswitch {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(markGrade(75));
 
 	}
-	public static String markGrade(int mark) {
+	public  String markGrade(int mark) {
 		char s;
 		String r;
 		if(mark>=90)s='A';
